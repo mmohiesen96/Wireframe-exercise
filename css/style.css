@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #f3f4ed;
+}
+.featured-banner{
+    margin: 50px 0 0 275px;
+    float: left;
+}
+.banners{
+    margin: 0 10px;
+}
+#banner{
+    margin: 0 275px;
+}
+#hero{
+    width: 960px;
+    height: 450px;
+    text-align: center;
+    margin: 100px 280px;
+}
+nav ul{
+    display: inline-block;
+    position: relative;
+    left: 190px;
+    bottom: 25px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 40px;
+    padding-bottom: 0;
+
+}
+nav{
+    background-color:#373a40;
+}
+
+a{
+    background-color: #212121;
+    padding: 10px;
+    color: #e8e8e8;
+    text-decoration: none;
+    border-radius: 0.6rem;
+}
+
+main p {
+display: inline-block;
+width: 480px;
+height :320px;
+margin: 50px 255px 25px 20px;
+overflow: scroll;
+}
+
+button{
+    border: none;
+    background-color: #212121;
+    color: #e8e8e8;
+    height: 55px;
+    width: 240px;
+    border-radius: 0.7rem;
+    margin-bottom:200px ;
+    margin-left: 35px;
+}
+
+footer{
+    background-color:#373a40;
+    height: 100px;
+}
+
+footer p{
+    color: brown;
+    padding-top: 50px;
+    padding-left: 10%;
+}
+
+button:hover{
+    border-radius: 0.5rem;
+    background-color:#373a40;
+    opacity: 0.9;
+}
+
+a:hover{
+    background-color:#373a40;
+}
+
